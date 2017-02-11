@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 25, 2017, 2:24:44 PM
+    Author     : Совушка
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(images/backfirstindex.jpg);     
+}
+.grey{
+    background-image: url(images/backthirdindex.gif);
+}
+#secback {
+    width: 1349px;
+    height: 827px;
+    background-image: url(images/backsecondindex.jpg);
+    color: #8a999f;
+}
+#thirdback{
+    width: 1000px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+#headerindex{
+    padding: 10px;
+    height: 75px;
+    margin-bottom: 10px;
+    background-image: url(images/backthirdindex.gif);
+}
+#leftsidebarindex{
+    padding: 10px;
+    height: 400px;
+    background-color: #8a999f;
+    width: 170px;
+    float: left;
+}
+#leftls{
+    margin-bottom: 15px;
+}
+#contentindex{
+    padding: 20px;
+    background-color: #c7d4d9;
+    width: 560px;
+    margin: 0 auto;
+    overflow-wrap: break-word;
+}
+#rightsidebarindex{
+    padding: 10px;
+    height: 400px;
+    background-color: #8a999f;
+    width: 170px;
+    float: right;
+}
+#footerindex{
+    padding: 10px;
+    margin-top: 10px;
+}
+#formindex{
+    padding: 5px;
+    margin: 5px auto; 
+    font-size: 15px;
+    font-family: Impact;
+}
+.loginindex{
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    font: 14px Arial, Verdana, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+#regindex{
+    border-radius: 15px;
+}
+#clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: brown;
+}
