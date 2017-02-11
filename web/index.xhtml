@@ -6,14 +6,41 @@
         <title>#{msg.mpt} </title>
         <link rel="icon" href="images/sulogo.png" type="image/png" /> 
         <link rel="shortcut icon" href="images/sulogo.png" type="image/png"/>
-        <link href="css/index_style.css" type="text/css" rel="stylesheet"/>
+        <link href="css/indexstyle.css" type="text/css" rel="stylesheet"/>
     </h:head>
     <h:body>
         <div id="secback">
             <div id="thirdback">
                 <div class="grey" id="headerindex" >header</div>
-                <div class="grey" id="leftsidebarindex">leftsidebar</div>
-                <div class="grey" id="rightsidebarindex">rightsidebar</div>
+                <div class="grey" id="leftsidebarindex">
+                    <p id="leftls">
+                        <h:link value="#{msg.factions}" outcome="pages/reg"/>
+                    </p>
+                    <p id="leftls">
+                        <h:link value="#{msg.news}" outcome="pages/reg"/>
+                    </p>
+                    <p id="leftls">
+                        <h:link value="#{msg.rules}" outcome="pages/reg"/>
+                    </p>
+                    <p id="leftls">
+                        <h:link value="#{msg.aboutus}" outcome="pages/reg"/>
+                    </p>
+                </div>
+                <div class="grey" id="rightsidebarindex">
+                    <div>
+                        <h:form>
+                            <h:outputLabel value="#{msg.login}" for="login"/>
+                            <h:inputText id="login" class="loginindex"/>                                
+                            <h:outputLabel value="#{msg.password}" for="login"/>
+                            <p>
+                                <h:inputSecret id="password" class="loginindex"/>                                
+                            </p>
+                            <p>
+                                <h:link value="#{msg.reg}" outcome="pages/reg"/>
+                            </p>
+                        </h:form>
+                    </div>
+                </div>
                 <div class="grey" id="contentindex">
                     <p>
                                             Когда во владения Римской республики вторглись германцы, Квинт Серторий вступил в действующую армию. Его первым командиром стал Квинт Сервилий Цепион[15] — влиятельный патриций и прославленный военачальник, командовавший армией в Нарбонской Галлии в 106—105 годах до н. э. Существует предположение, что Серторий стал контуберналом при Цепионе и его клиентом. Он мог использовать покровительство видного аристократа, чтобы пробиться наверх в новом для себя мире римской политики[16][17].
