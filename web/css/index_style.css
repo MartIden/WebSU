@@ -12,15 +12,15 @@ and open the template in the editor.
     margin: 0;
 }
 body{
-    background-image: url(images/backfirstindex.jpg);     
+    background-image: url(../images/backfirstindex.jpg);     
 }
 .grey{
-    background-image: url(images/backthirdindex.gif);
+    background-image: url(../images/backthirdindex.gif);
 }
 #secback {
     width: 1349px;
     height: 827px;
-    background-image: url(images/backsecondindex.jpg);
+    background-image: url(../images/backsecondindex.jpg);
     color: #8a999f;
 }
 #thirdback{
@@ -33,7 +33,6 @@ body{
     padding: 10px;
     height: 75px;
     margin-bottom: 10px;
-    background-image: url(images/backthirdindex.gif);
 }
 #leftsidebarindex{
     padding: 10px;
