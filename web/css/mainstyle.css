@@ -8,14 +8,11 @@ and open the template in the editor.
     Author     : Совушка
 */
 
-*{
-    margin: 0;
-    padding: 0;    
-}
 html{
     height: 100%;
 }
 body{
+    margin: 0;
     min-width: 480px;
     max-width: 1920px;
     background-color: #000000;
@@ -30,10 +27,10 @@ body{
     
 }
 #lside{
-    background-color: #1c1818;
+    background-color: #222222;
     float: left;
-    width: 180px;
-    height: 97.5%;
+    width: 17.3%;
+    height: 100%;
     padding: 15px 15px 0 15px;
     
 }
@@ -42,19 +39,77 @@ body{
     text-align: center;    
 }
 #lgoimg{
-    width: 174px;
+    width: 100%;
     height: 28px;
     margin-bottom: 10px;
 }
 #allivents{
-    margin: 10px 0;
-    color: #ff3333;
+    margin: 5px 0;
+    color: #cc3333
+}
+a{
+    text-decoration: none;
+}
+#lside a{
+    color: white;   
+    font:  bold  13px/1 Arial, TimesNewRoman, SansSerif, serif;
+}
+#lside p{
+    margin: 8px 0;
+}
+#lside hr{
+    border-color: #565d59;
+    margin: 20px 0;
+}
+#lside #lgrcol a{
+    color: #959595;
+}
+form{
+    width: 100%;
+    height: 4.6%;
+    border: 2px solid #959595;
+    border-radius: 5px;
+}
+#d1{
+    height: 100%;
+    width: 78%;
+    float: left;    
+}
+#d1 input{
+    border: none;
+    margin: 0;
+}
+#d2{
+    height: 100%;
+    width: 20%;
+    display: inline;
+    float: right;
+    
+}
+.search{
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 5px;
+    background-color: #222222;
+    color: #959595;  
+    outline: none; 
+    -webkit-appearance: none;
+    font:  bold  13px/1 Arial, TimesNewRoman, SansSerif, serif;
+    border-radius: 5px;
+}
+.butt{
+    width: 100%;
+    height: 100%;
+    outline: none; 
+    -webkit-appearance: none;
+    border-radius: 5px;
 }
 #rside{
     background-color: #ffffff;
     float: right;
-    width: 920px;
+    width: 77.45%;
     height: 100%;
+    padding: 15px 15px 0 15px;
 }
 
 
