@@ -6,15 +6,34 @@ and open the template in the editor.
 -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://xmlns.jcp.org/jsf/html">
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      >
     <h:head>
         <title>#{msg.regtitle}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="icon" href="../images/sulogo.png" type="image/png" /> 
-        <link rel="shortcut icon" href="../images/sulogo.png" type="image/png"/>
-        <link href="../css/regpagestyle.css" type="text/css" rel="stylesheet"/>
+        <link rel="shortcut icon" href="../resources/images/sulogo.png" type="image/png"/>
+        <h:outputStylesheet name="regpagestyle.css" library="css" />
+        <h:outputScript library="js" name="regjs.js" />
     </h:head>
-    <h:body>
-        <h:graphicImage id="i" value="../images/backsecondindex.jpg"/>    
+    <h:body>          
+        <div class="scrolldiv">
+            <h:graphicImage class="smashu" value="../resources/images/smashu.png" />
+            <h:form class="regform">                
+                <div class="inregdiv">                
+                    <h:graphicImage class="inreg"  value="../resources/images/inputreg.png" />
+                    <h:inputText class="inputem" a:placeholder="Введите E-mail" /> 
+                </div>
+                <div class="inregdiv1"> 
+                    <h:graphicImage class="inreg1"  value="../resources/images/inputreg.png" />
+                    <h:inputSecret class="insecr" a:placeholder="Введите пороль" />
+                </div>              
+                <div class="playbtndiv">                
+                    <h:commandButton class="playbtn"  />
+                </div>
+                <h:link class="tomainlink" outcome="/index" value="На главную" />
+            </h:form>            
+        </div>
     </h:body>
 </html>

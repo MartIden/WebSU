@@ -11,180 +11,236 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="images/sulogo.png" type="image/png" />
         <link rel="shortcut icon" href="images/mainlogo.png" type="image/png"/>
-        <link rel="stylesheet" href="css/mainstyle.css" type="text/css"/>
+        <link rel="stylesheet" href="resources/css/mainstyle.css" type="text/css"/> 
+        <script src="https://vk.com/js/api/openapi.js?139" type="text/javascript"></script>
+        <script type="text/javascript">VK.init({apiId: 2148891, onlyWidgets: true});</script>       
+        <meta prope
     </head>
-    <body>
+    <body>             
         <div id="firlayer">
-            
-                <div id="lside">
-                    <div class="alignimg"><img id="lgoimg" alt="Поехали" src="images/letsgo.png" /></div>
-                    <div id="allivents">
-                        Все мероприятия
-                    </div>
-                    <p>
-                        <a href="#">Игра-квест</a>
-                    </p>
-                    <p>
-                        <a>Соревнования</a>
-                    </p>
-                    <p>
-                        <a>Кросс-кантри</a>
-                    </p>
-                    <p>
-                        <a>Любительский марафон</a>
-                    </p>
-                    <p>
-                        <a>Многодневка</a>
-                    </p>
-                    <p>
-                        <a>Поисково-спасательные работы</a>
-                    </p>
-                    <p>
-                        <a>Мультимарафон</a>
-                    </p>
-                    <hr/>
-                    <div id="lgrcol" >
-                        <p>
-                            <a>Планируемые события</a>
-                        </p>
-                        <p>
-                            <a>События и фото отчеты</a>
-                        </p>
-                        <p>
-                            <a>Туризм</a>
-                        </p>
-                        <p>
-                            <a>Вело-барахолка</a>
-                        </p>
-                        <p>
-                            <a>Спецпроект</a>
-                        </p>
-                        <p>
-                            <a>Спонсорство</a>
-                        </p>
-                        <p>
-                            <a>Благотворительность</a>
-                        </p>
-                        <p>
-                            <a>Архив событий</a>
-                        </p>
-                    </div>
-                    <form action="#" method="post">
-                        <div id="d1">
-                            <input class="search" type="text" placeholder="Поиск">
-                        </div>
-                        <div id="d2">
-                             <input type="image" alt="sdf" name="search" src="images/search.png" class="butt" />
-                        </div>
-                    </form> 
+
+            <div id="lside">
+                <img id="lgoimg" alt="Поехали" src="images/letsgo.png" />
+                <div id="allivents">
+                    Все мероприятия
                 </div>
-            
+                <p>
+                    <a href="#">Игра-квест</a>
+                </p>
+                <p>
+                    <a href="#">Соревнования</a>
+                </p>
+                <p>
+                    <a href="#">Кросс-кантри</a>
+                </p>
+                <p>
+                    <a href="#">Любительский марафон</a>
+                </p>
+                <p>
+                    <a href="#">Многодневка</a>
+                </p>
+                <p>
+                    <a href="#">Поисково-спасательные работы</a>
+                </p>
+                <p>
+                    <a href="#">Мультимарафон</a>
+                </p>
+                <hr/>
+                <div id="lgrcol" >
+                    <p>
+                        <a href="#">Планируемые события</a>
+                    </p>
+                    <p>
+                        <a href="#">События и фото отчеты</a>
+                    </p>
+                    <p>
+                        <a href="#">Туризм</a>
+                    </p>
+                    <p>
+                        <a href="#">Вело-барахолка</a>
+                    </p>
+                    <p>
+                        <a href="#">Спецпроект</a>
+                    </p>
+                    <p>
+                        <a href="#">Спонсорство</a>
+                    </p>
+                    <p>
+                        <a href="#">Благотворительность</a>
+                    </p>
+                    <p>
+                        <a href="#">Архив событий</a>
+                    </p>
+                </div>
+                <form action="#" method="post">
+                    <div id="d1">
+                        <input class="search" type="text" placeholder="Поиск">
+                    </div>
+                    <div id="d2">
+                        <input type="image" alt="sdf" name="search" src="images/search.png" class="butt" />
+                    </div>
+                </form> 
+            </div>
+            <div>
+                <header>
+                    Портал о вело-мероприятиях Беларуси
+                    <div id="entareg" >
+                        <a href="#">Вход</a> / <a href="#">Регистрация</a>
+                    </div>
+                </header>   
                 <div id="rside">
-                    <header>
-                         header
-                    </header> 
+
                     <div id="mainnews">
-                        <div>
-                            Название главной новости
+                        <div class="mainnh">
+                            <h1>
+                                Марафон «Налибоки '16»
+                            </h1>                        
+                            <p> Любительский марафон
+
                         </div>
-                        <div>
-                            <div>
-                                картинка главн новости
+                        <div id="allmains">
+                            <div class="picmn" >
+                                <img alt="main new pic" src="images/mainpic.png"/>
                             </div>
-                            <div>
-                                <div>
-                                    описание главной новости 
+                            <div id="picmnright">
+                                <div id="discriptnews">
+                                    <p>
+                                        <strong>Дата:</strong> 28-29 мая 2016г.
+                                    </p><br/>
+                                    <p>
+                                        <strong>Место:</strong> РБ, Минская Гродненская
+                                        области, Воложинский, Молодечненский, 
+                                        Сморгонский, Ивьевский, Столбцовский районы.
+                                    </p><br/>
+                                    <p>
+                                        <strong>Ранг:</strong> марафон проводится в рамках Кубка
+                                        приключенческих гонок «Промвад Тур '16», Кубка марафонов
+                                        "Поехали" 2016.
+                                    </p><br/>
+                                    <p>
+                                        Весна, теплое солнце, яркая зелень и сладкий запах
+                                        цветущих садов - что еще нужно человеку для счастья?
+                                        Ну конечно же дорога и новое путешествие, приключения
+                                        и открытия на любимом марафоне «Налибоки '16».
+                                    </p><br/>
+                                    <a href="#">Подробнее</a>
                                 </div>
-                                <div>
-                                    лайки вк фэйсбук
+                                <div id="likes" >                                
+                                    <div id="vk_like"></div>
+                                    <script type="text/javascript">VK.Widgets.Like("vk_like", {type: "mini"});</script>                                    
                                 </div>
                             </div>
                         </div>
                     </div>
-               
+                    <div class="clear"></div>
+                    <hr/>
                     <div id="allnews">
-                        <table>
-                            <tr>
-                                <td>
-                                    <div>
-                                        
-                                    </div>
-                                    <div>
-                                        
-                                    </div>
-                                    <div>
-                                        
-                                    </div>
-                                </td>
-                                 <td>
-                                    <div>
-                                        
-                                    </div>
-                                    <div>
-                                        
-                                    </div>
-                                    <div>
-                                        
-                                    </div>
-                                </td>
-                                 <td>
-                                    <div>
-                                        
-                                    </div>
-                                    <div>
-                                        
-                                    </div>
-                                    <div>
-                                        
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div>
-                                        
-                                    </div>
-                                    <div>
-                                        
-                                    </div>
-                                    <div>
-                                        
-                                    </div>
-                                </td>
-                                 <td>
-                                    <div>
-                                        
-                                    </div>
-                                    <div>
-                                        
-                                    </div>
-                                    <div>
-                                        
-                                    </div>
-                                </td>
-                                 <td>
-                                    <div>
-                                        
-                                    </div>
-                                    <div>
-                                        
-                                    </div>
-                                    <div>
-                                        
-                                    </div>
-                                </td>
-                            </tr>
-                        </table>
+                        <div id="firstflex"> 
+                            <div id="innerflex">
+                                <div id="inimg">
+                                    <img alt="naliboki" src="images/naliboki.png"/>
+                                </div>
+                                <div id="inimg">
+                                    <h3>Марафон «Налибоки '16»</h3>
+                                    <p> Любительский марафон<br/>
+                                    <p>
+                                        <em>Один из самых популярных стартов в Беларуси,
+                                            который ежегодно собирает более 500 любителей
+                                            ориентирования. Взрослые и дети три дня покоряют
+                                            лесные трассы, соревнуются и учатся, отдыхают и общаются.</em>
+                                    </p>  
+                                    <a href="#">Подробнее</a>
+                                </div>                                             
+                            </div>
+                            <div id="innerflex">
+                                <div id="inimg">
+                                    <img alt="stahovsk" src="images/stahovsk.png"/>
+                                </div>
+                                <div id="inimg">
+                                    <h3> Стаховский веломарафон</h3>
+                                    <p> Кросс-кантри<br/>
+                                    <p>
+                                        <em>Вас ждет увлекательный трек, хороший перепад высот, базовый 
+                                            лагерь в живоптснейшем месте на берегу Березины, а также накал спортивной 
+                                            борьбы, проверка своих сил.</em>
+                                    </p>  
+                                    <a href="#">Подробнее</a>
+                                </div>                                    
+                            </div>
+                            <div id="innerflex">
+                                <div id="inimg">
+                                    <img alt="kubok" src="images/kubok.png"/>
+                                </div>
+                                <div id="inimg">
+                                    <h3>Кубок марафонов</h3>
+                                    <p> Мультимарафон<br/>
+                                    <p>
+                                        <em>В качестве первых в сезоне соревнований, контрольной тренеровки,
+                                            повода слезть с дивана, в конце концов, приглашаем на любительский
+                                            марафон «Люты», который пройдет 20 Февраля под Лепелем.</em>
+                                    </p>  
+                                    <a href="#">Подробнее</a>       
+                                </div>                                        
+                            </div>
+                            <div id="innerflex">
+                                <div id="inimg">
+                                    <img alt="medv" src="images/medv.png"/>
+                                </div>
+                                <div id="inimg">
+                                    <h3>Марафон «Медвежино»</h3>
+                                    <p> Кросс-кантри<br/>
+                                    <p>
+                                        <em>Отличный повод собраться вместе пообщаться,
+                                            похвастаться новыми приобретениями, обсудить новинки
+                                            велоиндустрии, принять участие в гонке, или посмотреть со стороны
+                                            и поболеть за участников.</em>
+                                    </p>  
+                                    <a href="#">Подробнее</a>
+                                </div>                                        
+                            </div>
+                            <div id="innerflex">                                        
+                                <div id="inimg">
+                                    <img alt="psr" src="images/psr.png"/>
+                                </div>
+                                <div id="inimg">
+                                    <h3>Время героев</h3>
+                                    <p> Поисково-спасательные работы<br/>
+                                    <p>
+                                        <em>Всем ценителям выживания в экстримальных условиях,
+                                            почитателям традиционной медицины, легкоходам, любителям
+                                            ориентирования на местности и просто, всем, кто ведет активный 
+                                            образ жизни.</em>
+                                    </p>  
+                                    <a href="#">Подробнее</a>
+                                </div>
+                            </div>
+                            <div id="innerflex">                                        
+                                <div id="inimg">
+                                    <img alt="coll" src="images/coll.png"/>
+                                </div>
+                                <div id="inimg">
+                                    <h3>Летняя коллекция</h3>
+                                    <p> Игра-квэст<br/>
+                                    <p>
+                                        <em>В день игры пройти пешеходный или велосипедный маршрут
+                                            по таким местам и увидеть их своими глазами смогут все желающие.</em>
+                                    </p>  
+                                    <a href="#">Подробнее</a>
+                                </div>
+                            </div>                                                            
+                        </div>
                     </div>
-                    <footer>
-                        <div>
-                            fot
-                        </div>
-                        <div>
-                            copyright
-                        </div>
-                    </footer>
-                </div>            
+
+                </div>
+                <footer>
+                    <div>
+                        fot
+                    </div>
+                    <div>
+                        copyright
+                    </div>
+                </footer>  
+            </div>
         </div>        
     </body>
 </html>

@@ -5,15 +5,15 @@
 }
 body
 {
-	background-image: url(../images/backfirindex.jpg);
+	background-image: url(images/backfirindex.jpg);
 }
 .grey
 {
-	background-image: url(../images/backthirdindex.gif);
+	background-image: url(images/backthirdindex.gif);
 }
 #secback
 {
-	background-image: url(../images/backsecondindex.jpg);
+	background-image: url(images/backsecondindex.jpg);
 	background-size: cover;
 	color: #8a999f;
 	height: 827px;
@@ -45,6 +45,7 @@ body
 	height: 400px;
 	padding: 10px;
 	width: 170px;
+        border-radius: 10px;
 }
 #leftls
 {
@@ -57,6 +58,7 @@ body
 	overflow-wrap: break-word;
 	padding: 20px;
 	width: 560px;
+        border-radius: 10px;
 }
 #rightsidebarindex
 {
@@ -65,11 +67,13 @@ body
 	height: 400px;
 	padding: 10px;
 	width: 170px;
+         border-radius: 10px;
 }
 #footerindex
 {
 	margin-top: 10px;
 	padding: 10px;
+         border-radius: 10px;
 }
 #formindex
 {
@@ -86,6 +90,8 @@ body
 	margin-top: 2px;
 	padding: 5px;
 	width: 150px;
+        outline: none;
+        -webkit-appearance: none;
 }
 #regindex
 {
@@ -188,10 +194,7 @@ label,#active,img
 	overflow: hidden;
 	width: 100%;
 }
-article, img
-{
-	width: 100%;
-}
+
 #slides .inner
 {
 	line-height: 0;
@@ -350,7 +353,69 @@ article, img
 	webkit-transform: translateZ(0);
 	webkit-transition: all 0.5s ease-out;
 }
-#imgwidth
+.imgwidth
 {
 	height: 300px;
+}
+.sliderjsf{
+    width: 100%;
+    height: 300px;    
+    border: blanchedalmond solid 2px;
+    border-radius: 4px;
+    position: relative;
+}
+.imgjsf{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+.comment{
+    height: 5%;    
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    background: #000;
+    border-radius: 3px 3px 3px 3px;      
+    opacity: 0.7;
+    padding: 1% 10px 2% 10px;
+    webkit-border-radius: 3px 3px 3px 3px;
+    color: #00ffff;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    font-size: 18px;
+}
+.radioboxjsf{
+    width: 30%;
+    height: 10%;
+    position: absolute;
+    left: 35%;
+    bottom: 2%;    
+}
+.radioboxjsflex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;  
+}
+.repcl{
+    height: 100%;
+}
+.imgradio{
+    height: 90%;  
+    width: 10%;
+    margin: 0 3px 3px 3px;
+}
+.butjsf{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: #777 solid 2px;
+    background-color: #ff3333;
+    opacity: 0.8;
+    outline: none;
+    -webkit-appearance: none;
+}
+ .butjsf:hover{
+    width: 110%;
+    height: 110%;
+    background-color: #cc0033;
 }

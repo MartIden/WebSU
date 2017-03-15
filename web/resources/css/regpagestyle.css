@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 3, 2017, 6:39:28 PM
+    Author     : Совушка
+*/ 
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    width: 100%;
+    height:  100%; 
+}
+body{
+    display: flex; 
+    width: 100%;
+    height:  100%; 
+    justify-content: center;
+    background-image: url(images/backsecondindex.jpg);
+    background-size: 100% 100%;
+}
+.scrolldiv{  
+    width: 43%;
+    height: 83%;
+    background-image: url(images/scroll.png);
+    background-size: 100% 100%;
+    margin: auto 0; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.scrolldiv:hover{
+    width: 45%;
+    height: 87%; 
+}
+.smashu{   
+    width: 45%;
+    height: 8%
+}
+.regform{
+    width: 60%;
+    height: 70%;
+    position: relative;
+}
+.inregdiv{
+    width: 100%;
+    height: 15%;
+    margin-top: 15%;
+    position: relative;
+    overflow: hidden;
+}
+.inreg{
+    width: 100%;
+}
+.inputem{    
+    top: 24%;    
+    height: 72%;    
+}
+.inregdiv1{
+    width: 100%;
+    height: 18%;
+    position: relative;
+    overflow: hidden;
+}
+.inreg1{
+    width: 100%;
+    }
+.insecr{    
+    top: 20%;    
+    height: 60%;    
+}
+.insecr,.inputem{
+    position: absolute;
+    left: 4.5%;
+    width: 90.6%;
+    text-align: center;
+    outline: none;
+    -webkit-appearance: none;
+    background-color: #261605;
+    color: #EEE;
+    border: none;
+    font-size: 1vw;
+}
+.playbtndiv{
+    width: 100%;
+    height: 20%;
+    margin-top: 15%;
+}
+.playbtn{
+    width: 100%; 
+    height: 100%;    
+    background-image: url(images/playbtn.png);
+    background-size: 100% 100%;
+    opacity: 0.4;
+    outline: none;
+    -webkit-appearance: none;
+    border: none;
+    border-radius: 10px;
+}
+.playbtn:hover{
+    opacity: 1;
+}
+.tomainlink{
+    position: absolute;
+    bottom: 10%;
+    left 0;
+    text-decoration: none;
+    color: wheat;
+    font-size: 1vw;
+}
+a:hover{
+    color: red;
+}

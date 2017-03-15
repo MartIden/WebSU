@@ -1,0 +1,232 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 16, 2017, 6:25:44 PM
+    Author     : Совушка
+*/
+
+html{
+    height: 250%;
+}
+body{
+    margin: 0;
+    min-width: 480px;
+    max-width: 1920px; 
+    min-height: 884px;
+    max-height: 1450px;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+}
+#firlayer{
+    margin: 0 auto;
+    height: 100%;
+    width: 1150px;    
+}
+#ldi{
+    
+}
+#lside{
+    background-color: #222222;
+    float: left;
+    width: 17.3%;
+    height: 108.54%;
+    padding: 15px 15px 5px 15px;
+    
+}
+.alignimg{
+    width: 100%;
+    text-align: center;    
+}
+#lgoimg{
+    width: 100%;
+    height: 28px;
+    margin-bottom: 10px;
+}
+#allivents{
+    margin: 5px 0;
+    color: #cc3333
+}
+a{
+    text-decoration: none;
+}
+#lside a{
+    color: white;   
+    font:  bold  13px/1 Arial, TimesNewRoman, SansSerif, serif;
+}
+#lside p{
+    margin: 8px 0;
+}
+#lside hr{
+    border-color: #565d59;
+    margin: 20px 0;
+}
+#lside #lgrcol a{
+    color: #959595;
+}
+form{
+    width: 100%;
+    height: 2.5%;
+    border: 2px solid #959595;
+    border-radius: 5px;
+}
+#d1{
+    height: 100%;
+    width: 78%;
+    float: left;    
+}
+#d1 input{
+    border: none;
+    margin: 0;
+}
+#d2{
+    height: 100%;
+    width: 20%;
+    display: inline;
+    float: right;
+    
+}
+.search{
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 5px;
+    background-color: #222222;
+    color: #959595;  
+    outline: none; 
+    -webkit-appearance: none;
+    font:  bold  13px/1 Arial, TimesNewRoman, SansSerif, serif;
+    border-radius: 5px;
+}
+.butt{
+    width: 100%;
+    height: 100%;
+    outline: none; 
+    -webkit-appearance: none;
+    border-radius: 5px;
+}
+header{
+    background-color: #ffffff;
+    float: right;
+    width: 77.45%;
+    height: 3.5%;
+    padding: 0 15px 0 15px;
+    margin-bottom: 5px;
+    font: 13px/1 Arial, TimesNewRoman, SansSerif, serif;
+    color: #959595;
+    
+    line-height: 4em;
+}
+#entareg{
+    float: right;
+    color: #959595;
+}
+a:visited, a:active
+{
+    color: #959595;
+}
+a:hover{
+    color:#cc3333;
+}
+#rside{
+    background-color: #ffffff;
+    float: right;
+    width: 77.45%;
+    height: 105%;
+    padding: 15px 15px 0 15px;
+}
+h1{
+    font-family: Arial, TimesNewRoman, SansSerif, serif;
+    margin: 10px 0 0 0;
+}
+#mainnews{
+    width: 100%;
+    height: 32%;
+}
+.mainnh{
+    margin-bottom: 25px;
+    width: 100%;
+    height: 11%;
+}
+.mainnh p, table p{
+    font: 12px/1 Arial, TimesNewRoman, SansSerif, serif;
+    color: #959595;
+    
+}
+#allmains{
+    width: 100%;
+    height: 84%;
+    
+}
+.picmn{
+    width: 66%;
+    height: 100%;
+    float: left;
+}
+.picmn img{
+    width: 100%;
+    height: 100%;
+}
+
+#picmnright{
+    float: right;
+    height: 100%;
+    width: 30%;
+    padding: 0 15px;
+}
+#discriptnews{
+    float: top;
+    height: 90%;
+    width: 100%;
+}
+#discriptnews p{
+    margin: 0;
+    word-break: break-all;
+    font:  77%/1 Arial, TimesNewRoman, SansSerif, serif;
+}
+#discriptnews a:active,#discriptnews a:visited,td a:active,td a:visited  {
+    color:#cc3333;
+}
+#discriptnews a:hover, td a:hover{
+    color: #959595;
+}
+#likes{
+    bottom: 0px;
+    height: 10%;
+    width: 100%;
+}
+
+.clear{
+    clear: both;
+    width: 100%;
+    height: 0%;
+}
+#allnews{
+    width: 100%;
+    height: 67%;
+}
+#innerflex h3{
+    font-family: Arial, TimesNewRoman, SansSerif, serif;
+}
+#innerflex em{
+    color: black;
+}
+#innerflex img{
+    padding: 5px 0;
+}
+#rside hr{
+    margin: 20px 0 2px 0;
+    border-color:  #cccccc;
+}
+#firstflex{    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;    
+}
+#innerflex{
+   width: 33%;
+   height: 48%;
+}

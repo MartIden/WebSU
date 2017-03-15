@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+    <h:head>
+        <title>TODO supply a title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>        
+    </h:head>
+    <h:body>        
+        <ui:composition>            
+            <article id="slider">
+                        <input  type='radio' name='slider' id='slide1'/>
+                        <input type='radio' name='slider' id='slide2'/>
+                        <input type='radio' name='slider' id='slide3'/>
+                        <input type='radio' name='slider' id='slide4'/>
+                        <input type='radio' name='slider' id='slide5'/>
+                        <input type='radio' name='slider' id='slide6'/>
+                        <input type='radio' name='slider' id='slide7'/>
+                        <input type='radio' name='slider' id='slide8'/>
+                        <div id="slides">
+                            <div id="container">
+                                <div class="inner">
+                                    <article>
+                                        <div class='caption'>
+                                            <bar>#{msg.ninjaspeach}<h:link value="#{msg.readmore}" outcome="pages/reg"/></bar>
+                                        </div>                                 
+                                        <h:graphicImage class="imgwidth" value="resources/images/ninjaslide.jpg"/>
+                                    </article>
+                                    <article>
+                                        <div class='caption'>
+                                            <bar>#{msg.robotspeach}<h:link value="#{msg.readmore}" outcome="pages/reg"/></bar>
+                                        </div>
+                                        <h:graphicImage class="imgwidth" value="resources/images/robotslide.jpg"/>
+                                    </article>
+                                    <article>
+                                        <div class='caption'>
+                                            <bar>#{msg.aliensspeach}<h:link value="#{msg.readmore}" outcome="pages/reg"/></bar>
+                                        </div>
+                                        <h:graphicImage class="imgwidth" value="resources/images/alienslide.jpg"/>
+                                    </article>
+                                    <article>
+                                        <div class='caption'>
+                                            <bar>#{msg.zombiesspeach}<h:link value="#{msg.readmore}" outcome="pages/reg"/></bar>
+                                        </div>
+                                        <h:graphicImage class="imgwidth" value="resources/images/zombieslide.jpg"/>
+                                    </article>
+                                    <article>
+                                        <div class='caption'>
+                                            <bar>#{msg.dinospeach}<h:link value="#{msg.readmore}" outcome="pages/reg"/></bar>
+                                        </div>
+                                        <h:graphicImage class="imgwidth" value="resources/images/dinoslide.jpg"/>
+                                    </article>
+                                    <article>
+                                        <div class='caption'>
+                                            <bar>#{msg.goblinsspeach}<h:link value="#{msg.readmore}" outcome="pages/reg"/></bar>
+                                        </div>
+                                        <h:graphicImage class="imgwidth" value="resources/images/goblinslide.jpg"/>
+                                    </article>
+                                    <article>
+                                        <div class='caption'>
+                                            <bar>#{msg.magesspeach}<h:link value="#{msg.readmore}" outcome="pages/reg"/></bar>
+                                        </div>
+                                        <h:graphicImage class="imgwidth" value="resources/images/mageslide.jpg"/>
+                                    </article>
+                                    <article>
+                                        <div class='caption'>
+                                            <bar>#{msg.piratesspeach}<h:link value="#{msg.readmore}" outcome="pages/reg"/></bar>
+                                        </div>
+                                        <h:graphicImage class="imgwidth" value="resources/images/pirateslide.jpg"/>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="commands">
+                            <label for='slide1'></label>
+                            <label for='slide2'></label>
+                            <label for='slide3'></label>
+                            <label for='slide4'></label>
+                            <label for='slide5'></label>
+                            <label for='slide6'></label>
+                            <label for='slide7'></label>
+                            <label for='slide8'></label>
+                        </div>
+                        <div id="active">
+                            <label for='slide1'></label>
+                            <label for='slide2'></label>
+                            <label for='slide3'></label>
+                            <label for='slide4'></label>
+                            <label for='slide5'></label>
+                            <label for='slide6'></label>
+                            <label for='slide7'></label>
+                            <label for='slide8'></label>
+                        </div>
+                    </article>
+        </ui:composition>
+    </h:body>
+</html>
